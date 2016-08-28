@@ -1,4 +1,85 @@
 /*  CSS Document                             */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial;
+}
 
+.timeline {
+    position: relative;
+    margin: 30px 0px 20px 0px
+}
 
+.timeline h1 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    margin:  0px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    font-size: : 1.2em;
+    z-index: 1;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.timeline .panel_container {
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 300px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,26016a+48,d14001+53 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1e5799 0%, #26016a 48%, #d14001 53%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #1e5799 0%,#26016a 48%,#d14001 53%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #1e5799 0%,#26016a 48%,#d14001 53%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#d14001',GradientType=1 ); /* IE6-9 */
+    
+}
+
+.timeline .background_slider {
+    position: absolute;
+    width:inherit;
+    height: inherit;
+}
+
+.timeline .background_slider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.timeline .panel_slider {width: 100%}
+
+.timeline .panel {width: 340px; position: absolute;}
+
+.timeline .panel_content {
+    position: relative;
+    padding: 75px 10px 0px 40px;
+}
+
+.timeline .panel_content h2 {
+    font-size: 1em;
+    color: #fff;
+    margin: 0px 0px 8px 0px;
+}
+
+.timeline .panel_content p {
+    margin: 0px 0px 1em 0px;
+    position: relative;
+    color: rgba(255,255,255,.55);
+}
+
+.timeline .panel_content .label {
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    font-size: 4em;
+    color: rgba(255,255,255,.2);
+    font-family: Georgia;
+}
