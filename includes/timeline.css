@@ -29,6 +29,7 @@ body {
 }
 
 .timeline .panel_container {
+    overflow: hidden;
     position: relative;
     margin: 10px 0px 0px 0px;
     width: 100%;
@@ -82,4 +83,35 @@ body {
     font-size: 4em;
     color: rgba(255,255,255,.2);
     font-family: Georgia;
+}
+
+.timeline nav {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    width: inherit;
+}
+
+.timeline nav a {
+    color: #fff;
+    font-size: .9em;
+    display: inline-block;
+    padding: 5px 10px;
+    border-color: #fff;
+    border-style: solid;
+    border: 8px 5px 5px 0px;
+    text-decoration: none;
+}
+
+.timeline nav a:first-child {
+    border-left-width: 8px;
+}
+
+.timeline nav a:last-child {
+    border-right-width: 8px;
+}
+
+.timeline nav a.selected {
+    background-color: rgba(255,255,255,.55);
 }
