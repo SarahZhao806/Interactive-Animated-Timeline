@@ -115,3 +115,69 @@ body {
 .timeline nav a.selected {
     background-color: rgba(255,255,255,.55);
 }
+
+.timeline .panel img.arpanet {
+    margin: 0px 0px 10px 0px;
+}
+
+.timeline .panel img.tcp {
+    float: left;
+    margin: 10px 20px 0px 0px;
+}
+
+.timeline .panel img.tcp_ip {
+    float: left;
+    margin-right: 20px;
+}
+
+.timeline .panel img.www {
+    float: left;
+    margin: 10px 15px 0px 0px;
+}
+
+.timeline .panel img.voip {
+    float: right;
+    margin: 10px 0px 0px 10px;
+}
+
+.timeline .panel img.telecommunications_usage {
+    float: right;
+    margin: 10px 30px 0px 10px;
+}
+
+.clear_both {
+    clear: both;
+}
+
+@media screen and (max-width: 500px) {
+    .timeline {
+        margin: 0px;
+        background: #81194c url(../images/background_small.jpg) no-repeat center 0px; 
+    }
+    
+    .timeline h1 {
+        text-align: left;
+        padding: 10px 10px 10px 20px;
+    }
+    
+    .timeline .panel_container {
+        height: auto;
+        background: none;
+        filter: none;
+        margin: 0px;
+    }
+    
+    .timeline .panel_slider {
+        position: static;
+        height: auto;
+    }
+    
+    .timeline .panel {
+        width: auto;
+        height: auto;
+        position: static;
+        border-top: 1px solid rgba(255,255,255, .3);
+        padding-bottom: 20px;
+    }
+}
+
